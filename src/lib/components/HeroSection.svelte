@@ -1,6 +1,7 @@
 <script>
 	import bookCover from '$assets/book_cover.png';
 	import phoneCover from '$assets/phone_cover.png';
+	import { Button } from '$components';
 </script>
 
 <section class="hero">
@@ -21,6 +22,9 @@
 			the hard way: finding a job, getting a visa, calculating my cost of living, choosing an
 			apartment. That's why I wrote this e-book, to tell you how I did it. No bullshit, no stress.
 		</p>
+		<Button onclick={() => console.log('Button clicked in hero section')}
+			>Purchase E-book for $10</Button
+		>
 	</div>
 </section>
 
@@ -38,25 +42,25 @@
 		background: linear-gradient(135deg, #e2cbff, #e2cbff 25%, #deeaff 50%, #ece5ff 75%, #927bce);
 	}
 
-  .hero-text {
-    padding: 100px 5%;
-    width: 50%;
-    background-color: black;
-  }
+	.hero-text {
+		padding: 100px 5%;
+		width: 50%;
+		background-color: black;
+	}
 
-  .book-cover {
-    position: absolute;
-    right: 2%;
-    bottom: 0;
-    width: 65%;
-    transform: translateY(30%);
-  }
+	.book-cover {
+		position: absolute;
+		right: 2%;
+		bottom: 0;
+		width: 65%;
+		transform: translateY(30%);
+	}
 
-  .phone-cover {
-    position: absolute;
-    width: 35%;
-    bottom: 0;
-    right: 52%;
-    transform: translateY(25%);
-  }
+	.phone-cover {
+		position: absolute;
+		width: 35%;
+		bottom: 0;
+		right: 52%;
+		transform: translateY(25%);
+	}
 </style>
