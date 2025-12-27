@@ -17,14 +17,12 @@
 		<h1>THIS EBOOK WILL</h1>
 		<h1>SAVE YOU MONEY,</h1>
 		<h1 class="mb-m">TIME &amp; NERVES</h1>
-		<p class="light-grey">
+		<p class="light-grey mb-l">
 			I moved to Spain seven yeas ago. The process was painful and difficult. I learned most things
 			the hard way: finding a job, getting a visa, calculating my cost of living, choosing an
 			apartment. That's why I wrote this e-book, to tell you how I did it. No bullshit, no stress.
 		</p>
-		<Button onclick={() => console.log('Button clicked in hero section')}
-			>Purchase E-book for $10</Button
-		>
+		<Button>Purchase E-book for $10</Button>
 	</div>
 </section>
 
