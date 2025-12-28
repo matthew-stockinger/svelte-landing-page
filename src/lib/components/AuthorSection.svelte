@@ -6,7 +6,7 @@
 	<h2 class="mb-l">About the author</h2>
 	<div class="author-container">
 		<div class="author-text">
-			<p>
+			<p class="mb-xs">
 				Niklas Fischer is a seasoned expatriate with over seven years of experience living in Spain.
 				Originally from New York, John left behind the hustle of corporate America to embrace a more
 				fulfilling life on the sun-soaked coasts of Spain. Through his own journey, he has navigated
@@ -24,3 +24,27 @@
 		<img src={authorPic} alt="Author Niklas Fischer" />
 	</div>
 </section>
+
+<style>
+  .author-section {
+    padding: 80px 0;
+    margin-left: 12vw;
+    margin-right: 20vw;
+    max-width: 1150px;
+  }
+
+  .author-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .author-container img {
+    width: 40%;
+    border: 6px solid black;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.5);
+  }
+
+  .author-text {
+    width: 55%;
+  }
+</style>
